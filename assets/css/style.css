@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section{
+    background-color: #343541;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 17vw;
+    background-color: #202123;
+}
+
+.container{
+    height: 100vh;
+    width: 83vw;
+}
+
+.container-content{
+    width: 740px;
+    height: 400px;
+    /* background-color: red; */
+    margin: 60px auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    color: #ececf1;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.card{
+    background-color: #3e3f4b;
+    color: #ececf1;
+    width: 210px !important;
+    padding: 14px;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    color: #ececf1;
+    /* margin: 10px; */
+}
+
+.container-flex{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.boxes{
+    text-align: center;
+    width: 284px;
+    /* justify-content: center; */
+    /* margin-bottom: 100px; */
+}
+
+.card:hover{
+    background-color: #202123;
+    cursor: pointer;
+}
+
+.title1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ececf1;
+    margin-bottom: 15px;
+}
+
+.input{
+    position: sticky;
+    box-sizing: border-box;
+    width: 740px;
+    border-radius: 14px;
+    border: none;
+    background-color: #3e3f4b;
+    color: #ececf1;
+    padding: 16px;
+    font-size: medium;
+}
+
+.input:focus{
+    border: none;
+    outline: none;
+}
+
+.input-container{
+    position: relative;
+    margin-top: 100px;
+}
+
+.desc{
+    margin-top: 16px;
+    text-align: center;
+    color: #c5c5d2;
+    font-size: 12px;
+}
+
+.send-icon{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 3%;
+    bottom: 35%;
+    color: #6b6c7b;
+}
+
+.send-icon:hover{
+    cursor: pointer;
+}
